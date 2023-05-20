@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Filter Cards</title>
+</head>
+<body>
+    <p> Filter ui cards via their profession</p>
+   <div>
+    <select name="profession" id="profession" value="select">
+        <option value="Developer">Developer</option>
+        <option value="Admin">Admin</option>
+    </select>
+   </div>
+   <div class="data-container">
+
+   </div>
+    <button id="filter" onclick="filter_by_profession()">Filter</button>
+    <p>Add a new user</p>
+    <div class="data-entry">
+        <div>
+            Enter Name
+            <div><input type="text" id="entered_profession"></div>
+        </div>
+        <div>
+            Enter profession
+            <div><input type="text" id="entered_profession"></div>
+            
+        </div>
+        <div>
+            Enter Age
+            <div><input type="text" id="entered_age"></div>
+        </div>
+                
+    </div>
+    <div>
+        <button class="add" onclick="add_user()">Add User</button> 
+    </div>
+   <script src="./index.js"></script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Accessing Select Option Value</title>
+</head>
+<body>
+<h1>Select an option:</h1>
+<select id="mySelect">
+<option value="option1">Option 1</option>
+<option value="option2">Option 2</option>
+<option value="option3">Option 3</option>
+</select>
+
+<button onclick="getSelectedOption()">Get Selected Option Value</button>
+
+<script>
+function getSelectedOption() {
+const selectElement = document.getElementById('mySelect');
+const selectedValue = selectElement.value;
+
+alert("Selected Option Value: " + selectedValue);
+}
+</script>
+</body>
+</html> -->

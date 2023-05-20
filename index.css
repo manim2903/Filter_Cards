@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.data-entry{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+input{
+    background-color: black;
+    color: antiquewhite;
+}
+
+button{
+    padding-left: 10px;
+    padding-right: 10px;
+}
